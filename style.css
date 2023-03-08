@@ -1,0 +1,73 @@
+body{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: lightyellow;
+}
+
+#profilePicture{
+    width: 250px;
+    height:250px;
+    border-radius: 200px;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+}
+
+h2{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.profileContainer{
+    padding-top: 40px;
+    text-align:start;
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+}
+.projectItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.unit{
+    text-align: center;
+}
+
+#screenshot{
+    max-width: 300px;
+    max-height: 300px;
+}
+p{
+    font-family: 'Press Start 2P', cursive;
+    font-size: x-small;
+}
+a{
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+    font-size: x-small;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+li{
+    font-family: 'Press Start 2P', cursive;
+    font-size: x-small;
+    padding-top: 35px;
+}
