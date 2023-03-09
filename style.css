@@ -6,7 +6,7 @@ body{
     background-color: lightyellow;
 }
 
-#profilePicture{
+.profilePicture{
     width: 250px;
     height:250px;
     border-radius: 200px;
@@ -36,7 +36,7 @@ h2{
     text-align: center;
 }
 
-#screenshot{
+.screenshot{
     max-width: 300px;
     max-height: 300px;
 }
