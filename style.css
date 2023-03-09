@@ -41,8 +41,8 @@ h2{
 }
 
 .screenshot{
-    max-width: 300px;
-    max-height: 300px;
+    width: 314px;
+    height: 292px;
     border: 2px solid darkslategray;
     border-radius: 10px;
 }
