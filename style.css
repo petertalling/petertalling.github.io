@@ -10,13 +10,17 @@ body{
     width: 250px;
     height:250px;
     border-radius: 200px;
+    border: 2px solid darkslategray;
 }
+
 h1{
     font-family: 'Press Start 2P', cursive;
+    color: darkslategray;
 }
 
 h2{
     font-family: 'Press Start 2P', cursive;
+    color: darkslategray;
 }
 
 .profileContainer{
@@ -39,13 +43,15 @@ h2{
 .screenshot{
     max-width: 300px;
     max-height: 300px;
+    border: 2px solid darkslategray;
+    border-radius: 10px;
 }
 p{
     font-family: 'Press Start 2P', cursive;
     font-size: x-small;
 }
 a{
-    color: black;
+    color: darkslategray;
     font-family: 'Press Start 2P', cursive;
     font-size: x-small;
 }
@@ -59,7 +65,7 @@ a:visited {
 }
 
 a:hover {
-    color: grey;
+    color: red;
 }
 
 a:active {
@@ -70,4 +76,18 @@ li{
     font-family: 'Press Start 2P', cursive;
     font-size: x-small;
     padding-top: 50px;
+    color: darkslategray;
+}
+
+iframe{
+    border: 2px solid darkslategray;
+    border-radius: 10px;
+}
+
+hr{
+    border: 1px solid darkslategray;
+}
+
+p{
+    color: darkslategray;
 }
