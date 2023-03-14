@@ -43,18 +43,26 @@ h2{
     margin: auto;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+}
+
+.portfolioScreenshot{
+    max-width: 90%;
+    height: auto;
+    border: 2px solid darkslategray;
+    border-radius: 10px;
 }
 
 .contact{
     margin: auto;
 }
 
-.screenshot{
-    max-width: 60%;
-    height: auto;
+iframe{
+    max-width: 100%;
     border: 2px solid darkslategray;
     border-radius: 10px;
 }
+
 p{
     font-family: 'Press Start 2P', cursive;
     font-size: x-small;
@@ -92,13 +100,6 @@ li{
     font-size: x-small;
     padding-top: 50px;
     color: darkslategray;
-}
-
-iframe{
-    max-width: 95%;
-    max-height: 95%;
-    border: 2px solid darkslategray;
-    border-radius: 10px;
 }
 
 .footer{
