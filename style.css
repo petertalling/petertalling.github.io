@@ -93,7 +93,7 @@ p{
     color: darkslategray;
 }
 
-@media(max-width: 412px) {
+@media(max-width: 1080px) {
     .projectItems{
         flex-direction: column;
     }
