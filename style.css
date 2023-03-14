@@ -92,3 +92,9 @@ hr{
 p{
     color: darkslategray;
 }
+
+@media(max-width: 412px) {
+    .projectItems{
+        flex-direction: column;
+    }
+  }
